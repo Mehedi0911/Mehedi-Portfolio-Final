@@ -1,0 +1,8 @@
+.box-content{
+height: 190px;
+border-radius: 5px;
+}
+.box-content p{
+    font-size: .55rem;
+    opacity: .7;
+}

@@ -1,0 +1,50 @@
+.form-container{
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    height: 360px;
+    overflow:auto;
+}
+
+.address-container{
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+.contact-box{
+    border-bottom: 1px solid lightgray;
+    padding: 1rem;
+    
+}
+.contact-form input.submit-btn{
+    float: right;
+}
+
+.contact-form input.field{
+background: none;
+border: none;
+border-bottom: 1px solid lightgray;
+border-radius: 0;
+outline: none;
+color: white;
+}
+
+.contact-form input.field:focus{
+border-bottom: 2px solid lightskyblue;
+outline: none;
+box-shadow: none;
+}
+
+.contact-form textarea{
+background: none;
+border: none;
+border-bottom: 1px solid lightgray;
+border-radius: 0;
+color: white;
+}
+.contact-form textarea:focus{
+    border-bottom: 2px solid lightskyblue;
+background: none;
+outline: none;
+box-shadow: none;
+}

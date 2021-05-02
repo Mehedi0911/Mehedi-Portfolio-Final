@@ -1,0 +1,41 @@
+.brand-text{
+    color: lightsalmon;
+}
+
+.brand-btn-primary{
+    color: white;
+    background: lightsalmon;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    padding:0 1rem;
+    transition: all ease 0.4s;
+    font-size: .85rem;
+}
+
+.brand-btn-primary:hover{
+    color: lightsalmon;
+    background: transparent;
+    border: 2px solid lightsalmon;
+    border-radius: 5px;
+    outline: none;
+    padding:0 1rem;
+}
+
+.section-heading{
+    color: lightsalmon;
+    position: relative;
+    margin-bottom: 3rem;
+    z-index: 1;
+    margin: 3rem 0;
+
+}
+
+.section-heading::before{
+content: url(../Image/blur.png);
+opacity: 0.5;
+position: absolute;
+left: -15px;
+top: -5px;
+z-index: -1;
+}

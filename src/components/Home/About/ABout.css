@@ -1,0 +1,23 @@
+.about-content{
+    background: #0e0d21;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.description{
+    font-size: .65rem;
+    font-weight: 300;
+}
+
+.bar-bg{
+    height: 5px;
+    background: whitesmoke;
+    border-radius: 5px;
+}
+
+.bar{
+    height: 5px;
+    width: 85%;
+    border-radius: 5px;
+    
+}
