@@ -15,4 +15,9 @@
 .menu a:hover{
     border-bottom: 2px solid lightsalmon;
     color: lightsalmon;
-}
+}  
+@media only screen and (max-width: 990px) {
+    .menu a {
+     display: block;
+    }
+  }

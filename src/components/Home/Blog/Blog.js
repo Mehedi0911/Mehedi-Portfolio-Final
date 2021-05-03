@@ -64,7 +64,7 @@ const Blog = () => {
     ]
 
     return (
-        <section className="container w-75">
+        <section className="container w-75" id="blog">
             <h5 className="section-heading">Latest Blogs</h5>
             <>
             <Swiper slidesPerView={3} spaceBetween={30} freeMode={true} pagination={{

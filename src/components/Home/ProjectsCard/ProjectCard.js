@@ -1,30 +1,33 @@
 import React from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import './ProjectsCard.css'
 const ProjectCard = (props) => {
     const { image, title, features, live, githubFront, githubBack, tech } = props.project;
+
+    const handleLiveLinkClick = () => {
+        window.open(live);
+    }
+    const handleLGitHubLinkClick = () => {
+        window.open(githubFront);
+    }
     return (
-        <div className="mb-3">
-            <div className="row">
-                <div className="col-md-4">
-                    <div style={{borderRadius:'5px'}} className="p-3 bg-white">
-                    <img className="w-100" src={image} alt="" />
-                    </div>
-                </div>
-                <div className="col-md-8">
-                   <div style={{borderRadius:'5px'}} className="p-3 bg-white">
-                   <h6 className="brand-text">{title}</h6>
-                   <ul>
-                       {
-                           features.map(feat => <li>{feat}</li>)
-                       }
-                   </ul>
-                   <div className="d-flex text-white w-100">
-                       {
-                        tech.map(t => <p style={{background:'#121127', padding:'.25rem .75rem', borderRadius:'10px', marginRight:'1rem'}}>{t}</p>)
-                       }
-                   </div>
-                   </div>
-                </div>
+        <div style={{borderRadius:'5px', background:'#0e0d21'}} className="mb-2 p-5 card-container">
+            <img className="w-100 image-fluid" src={image} alt=""/>
+            <h6 onClick={handleLiveLinkClick} className="text-left mb-3 mt-2 brand-text">{title}<FontAwesomeIcon className="brand-text ml-3" icon={faExternalLinkAlt} /></h6>
+            <div className="d-flex mb-3">
+                {
+                    tech.map(t=> <small style={{borderRadius:'5px'}} className="mr-2 text-fluid text-left text-white p-2 bg-dark">{t}</small>)
+                }
+            </div>
+            <ul>
+                {
+                    features.map(feat=> <li className="text-left text-white">{feat}</li>)
+                }
+            </ul>
+            <div className="d-flex">
+                <h6 onClick={handleLGitHubLinkClick} className="text-white bg-dark p-2">Check Codes at <FontAwesomeIcon className="brand-text ml-2" icon={faGithub} /></h6>
             </div>
         </div>
     );

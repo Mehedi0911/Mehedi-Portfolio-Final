@@ -1,0 +1,9 @@
+.card-container h6{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-container small, li {
+     font-size: .7rem;
+    }
+  }

@@ -12,11 +12,12 @@ const Navigation = () => {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     <div className="menu">
-                    <a href="#home" className="home mr-3 mb-3">Home</a>
+                    <a href="#header" className="home mr-3 mb-3">Home</a>
                     <a href="#about" className="mr-3 mb-3">About</a>
-                    <a href="#link" className="mr-3 mb-3">Service</a>
-                    <a href="#link" className="mr-3 mb-3">Projects</a>
-                    <a href="#link" className="">Contact</a>
+                    <a href="#service" className="mr-3 mb-3">Service</a>
+                    <a href="#blog" className="mr-3 mb-3">Blog</a>
+                    <a href="#project" className="mr-3 mb-3">Projects</a>
+                    <a href="#contact" className="">Contact</a>
                     </div>
 
                 </Nav>

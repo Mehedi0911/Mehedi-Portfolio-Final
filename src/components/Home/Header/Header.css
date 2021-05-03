@@ -34,5 +34,16 @@
     
 }
 
+.social-icons .Slinks{
+    color: white;
+}
+
+.social-icons .Slinks:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: all ease .4s;
+    color: lightsalmon;
+}
+
 
 

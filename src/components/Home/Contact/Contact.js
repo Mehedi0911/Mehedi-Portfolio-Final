@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStreetView, faEnvelopeOpen, faPhoneSquare } from '@fortawesome/free-solid-svg-icons'
 const Contact = () => {
     return (
-        <section className="container w-75">
+        <section className="container w-75" id="contact">
             <h5 className="section-heading">Get in Touch</h5>
             <h6 className="text-center text-white mb-5">Let's Talk Your Projects</h6>
             <div className="row">

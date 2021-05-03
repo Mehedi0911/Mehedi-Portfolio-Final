@@ -27,7 +27,7 @@ const Services = () => {
     ]
     
     return (
-        <section className="container w-75">
+        <section className="container w-75" id="service">
             <h5 className="section-heading">Services</h5>
             <div className="row">
                 {
