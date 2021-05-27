@@ -9,10 +9,10 @@ import Navigation from './components/Nav/Nav';
 function App() {
   return (
     <div>
-      
-    <Navigation></Navigation>
-    <Home></Home>
-      
+
+      <Navigation></Navigation>
+      <Home></Home>
+
     </div>
   );
 }

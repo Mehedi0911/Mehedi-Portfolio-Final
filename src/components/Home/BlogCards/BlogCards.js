@@ -5,8 +5,8 @@ const BlogCards = (props) => {
     return (
         <div className="mb-5 blog-container">
             <img src={image} alt=""/>
-            <h6>{title}</h6>
-            <small>{date}</small>
+            <h3>{title}</h3>
+            <p>{date}</p>
         </div>
     );
 };

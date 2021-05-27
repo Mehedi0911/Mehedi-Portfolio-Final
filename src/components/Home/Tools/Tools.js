@@ -5,31 +5,31 @@ import { faServer} from '@fortawesome/free-solid-svg-icons'
 const Tools = () => {
     return (
         <section className="container w-75">
-            <h6 className="section-heading">Top Expertise</h6>
+            <h3 className="section-heading">Top Expertise</h3>
             <div className="tools row text-white">
                 <div className="icons-holder text-center col-md-2">
-                <FontAwesomeIcon className="icons" icon={faJs}/>
-                <h6>JavaScript</h6>
+        <FontAwesomeIcon style={{fontSize:'3rem'}} className="icons mb-3" icon={faJs}/>
+                <h3>JavaScript</h3>
                 </div>
                 <div className="icons-holder text-center col-md-2">
-                <FontAwesomeIcon className="icons" icon={faReact}/>
-                <h6>React</h6>
+        <FontAwesomeIcon style={{fontSize:'3rem'}} className="icons mb-3" icon={faReact}/>
+                <h3>React</h3>
                 </div>
                 <div className="icons-holder text-center col-md-2">
-                <FontAwesomeIcon className="icons" icon={faNodeJs}/>
-                <h6>Node.js</h6>
+        <FontAwesomeIcon style={{fontSize:'3rem'}} className="icons mb-3" icon={faNodeJs}/>
+                <h3>Node.js</h3>
                 </div>
                 <div className="icons-holder text-center col-md-2">
-                <FontAwesomeIcon className="icons" icon={faServer}/>
-                <h6>mongodb</h6>
+        <FontAwesomeIcon style={{fontSize:'3rem'}} className="icons mb-3" icon={faServer}/>
+                <h3>mongodb</h3>
                 </div>
                 <div className="icons-holder text-center col-md-2">
-                <FontAwesomeIcon className="icons" icon={faFigma}/>
-                <h6>Figma</h6>
+        <FontAwesomeIcon style={{fontSize:'3rem'}} className="icons mb-3" icon={faFigma}/>
+                <h3>Figma</h3>
                 </div>
                 <div className="icons-holder text-center col-md-2">
-                <FontAwesomeIcon className="icons" icon={faGithub}/>
-                <h6>github</h6>
+        <FontAwesomeIcon style={{fontSize:'3rem'}} className="icons mb-3" icon={faGithub}/>
+                <h3>github</h3>
                 </div>       
             </div>
             

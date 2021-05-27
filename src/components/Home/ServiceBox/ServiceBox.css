@@ -1,6 +1,10 @@
 .box-content{
-height: 190px;
+
 border-radius: 5px;
+transition: all ease.4s;
+}
+.box-content:hover{
+    transform: scale(1.05);
 }
 .box-content p{
     font-size: .55rem;

@@ -21,10 +21,10 @@ const Header = () => {
 
                 <img src={mehediImage} alt="" />
                 <ScrollAnimation animateIn="bounceInLeft" duration={1}>
-                <h6 className="text-white mt-2" >Mehedi Mosharrof</h6>
+                <h3 className="text-white mt-2 mb-3" >Mehedi Mosharrof</h3>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="bounceInRight" duration={2}>
-                <h4 className="text-white mt-2"><span className="brand-text">M.E.R.N. Stack </span> Developer</h4>
+                <h1 className="text-white mt-2 mb-3"><span className="brand-text">M.E.R.N. Stack </span> Developer</h1>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="bounce" duration={2}>
                 <div className="social-icons mt-2">
@@ -36,7 +36,7 @@ const Header = () => {
                 </ScrollAnimation>
                <div className="d-flex justify-content-center">
                <ScrollAnimation animateIn="flipInY" duration={2}><button className="brand-btn-primary mt-3 mr-2">HIRE ME</button></ScrollAnimation>
-                <ScrollAnimation animateIn="flipInY" duration={2}><button onClick={handleOnclick} className="brand-btn-primary mt-3">Resume</button></ScrollAnimation>
+                <ScrollAnimation animateIn="flipInY" duration={2}><button onClick={handleOnclick} className="brand-btn-primary mt-3">RESUME</button></ScrollAnimation>
                </div>
 
 

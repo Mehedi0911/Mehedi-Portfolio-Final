@@ -34,7 +34,7 @@ const Services = () => {
                     serviceData.map(service => <ServiceBox service={service}></ServiceBox>)
                 }
             </div>
-            <p className="text-center text-white">Looking for a custom project? <span className="brand-text">Click Here</span> for a Quote</p>
+            <p style={{fontSize:'1.25rem'}} className="text-center text-white mt-3">Looking for a custom project? <span className="brand-text">Click Here</span> for a Quote</p>
         </section>
     );
 };

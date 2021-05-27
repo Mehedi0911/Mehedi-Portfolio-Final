@@ -2,7 +2,7 @@
     border: 2px solid lightgray;
     border-radius: 5px;
     margin-bottom: 2rem;
-    height: 360px;
+    height: 405px;
     overflow:auto;
 }
 
@@ -17,10 +17,11 @@
     
 }
 .contact-form input.submit-btn{
+    font-size: 1.25rem;
     float: right;
 }
 
-.contact-form input.field{
+.contact-form input.field{font-size: 1.25rem;
 background: none;
 border: none;
 border-bottom: 1px solid lightgray;
